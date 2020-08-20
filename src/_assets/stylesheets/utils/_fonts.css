@@ -1,0 +1,28 @@
+@font-face{
+    font-family:"Frutiger W02";
+    src:url("/static/fonts/0e18fa83-4d3c-4ae6-84a4-2d9f616c443e.woff2") format("woff2"),url("/static/fonts/569dd51c-b527-40ee-a37a-e11f4e7ec601.woff") format("woff");
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+@font-face{
+    font-family:"Frutiger W02";
+    src:url("/static/fonts/8ea1fec7-fd4d-4ee3-8c46-abbc3e04fadd.woff2") format("woff2"),url("/static/fonts/c761b274-66d3-4b98-b8f7-851b050d4426.woff") format("woff");
+font-weight: 300;
+font-style: italic;
+font-display: swap;
+}
+@font-face{
+    font-family:"Frutiger W02";
+    src:url("/static/fonts/e427d483-7e37-4ee5-a48f-6f8d33896d29.woff2") format("woff2"),url("/static/fonts/cf333268-6b9d-4051-a459-6de346b6a6a4.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face{
+    font-family:"Frutiger W02";
+    src:url("/static/fonts/5aac362b-4b86-455a-9f13-b0ddb989bd4a.woff2") format("woff2"),url("/static/fonts/1f657ad3-264f-470e-a3ec-88ea91a2f691.woff") format("woff");
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}

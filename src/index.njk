@@ -3,23 +3,95 @@ layout: base.njk
 title: Minimal boilerplate for new projects built with Eleventy, Tailwind and PostCSS
 ---
 
-<main id="main" class="px-4 max-w-md mx-auto text-center">
-    <img src="/static/icon.svg" alt="Rocket icon" class="w-12 mx-auto my-4 rocket">
-    <h1 class="font-bold text-xl mb-2">JAMStack Web Starter <span class="font-light text-gray-500">v{{ pkg.version }}</span></h1>
-    <p>Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS</p>
+<main id="main">
+    <section id="header" class=" bg-nei_blue bg-center bg-cover bg-no-repeat p-20" style="background-image:url('/static/images/contour-bg.png')">
+        <div class="px-4 container mx-auto text-white grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <div id="top-text" class="p-10 col-span-7 bg-nei_blue max-w-xl">
+                <img class="w-32 mb-6" src="/static/images/nei-logo-color.png"/>
+                <h1 class="font-bold text-4xl leading-snug mb-6">Activate your Microdrones® gift card</h1>
+                <p class="text-base font-light">
+                    <span class="text-nei_yellow font-bold">Complete the form to activate your gift card from NEI for up to $3000 towards an mdaaS purchase or rental.&ast;</span>
+                    You will also gain access to our educational webinar, “mdaaS: An easy way to Make Drone LiDAR and Drone Surveying a Part of Your Business.”</p>
 
-    <ul class="md:flex my-4">
-        <li class="md:flex-auto p-2">
-            <a href="https://github.com/scottishstoater/jamstack-web-starter/zipball/master/" class="block no-underline leading-tight p-3 font-bold border-2 border-ws-blue-600 bg-ws-blue-500 text-white rounded hover:bg-ws-blue-600">Download</a>
-        </li>
-        <li class="md:flex-auto p-2">
-            <a href="https://github.com/scottishstoater/jamstack-web-starter#features" class="block no-underline text-black leading-tight p-3 font-bold border-2 rounded hover:bg-gray-100">Get started</a>
-        </li>
-    </ul>
+            </div>
+            <div id="form-container" class="px-0 py-0 bg-white col-span-5">
 
-    <footer class="text-sm text-gray-500">
-       <p class="flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="w-4 mr-1"><path class="fill-current text-gray-100" d="M32 5H4C1.791 5 0 6.791 0 9v18c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4V9c0-2.209-1.791-4-4-4z"/><path class="fill-current text-ws-blue-500" d="M13 18S0 8.586 0 8.895v18.21C0 27.414 13 18 13 18zm5 3S3.697 31 4.07 31h27.859C32.303 31 18 21 18 21zm5-3s13 9.414 13 9.105V8.895C36 8.586 23 18 23 18zm-5-3S3.697 5 4.07 5h27.859C32.303 5 18 15 18 15z"/></svg> <span>Proudly crafted in Scotland by <a href="https://www.chriscollins.me">Chris Collins</a></span></p>
-        <p>Go and build something great! 🥳</p>
+                <!-- SharpSpring Form for NEI Gift Card Promo 2 -->
+                <script type="text/javascript">
+                    var ss_form = {
+                        'account': 'MzawMDEzNjQ0BAA',
+                        'formID': 'M08ySk6xNDXTtUgzN9M1MTJJ0k1KNEvRtTRKNUuxMEpMSbRMBAA'
+                    };
+                    ss_form.width = '100%';
+                    ss_form.height = '300';
+                    ss_form.domain = 'app-3QNBUQC6X6.marketingautomation.services';
+                    // ss_form.hidden = {'field_id': 'value'};  Modify this for sending hidden variables, or overriding values
+                    // ss_form.target_id = 'target';  Optional parameter: forms will be placed inside the element with the specified id
+                    // ss_form.polling = true;  Optional parameter: set to true ONLY if your page loads dynamically and the id needs to be polled continually.
+                </script>
+                <script type="text/javascript" src="https://koi-3QNBUQC6X6.marketingautomation.services/client/form.js?ver=2.0.1"></script>
+
+            </div>
+        </div>
+    </section>
+    <section class="px-20 pt-20 pb-10">
+        <div class="px-4 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-1">
+            <div>
+                <img src="/static/images/md-nei-giftcard-front-shadow.png"/>
+            </div>
+            <div>
+                <img src="/static/images/md-nei-giftcard-back-shadow.png"/>
+            </div>
+        </div>
+    </section>
+    <section class="px-20 pt-0 pb-10">
+        <div>
+            <p class="text-center text-nei_blue text-2xl leading-normal font-bold mb-6">AVAILABLE OPTIONS:</p>
+            <div class="px-4 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-1 text-white font-light">
+                <div class="bg-cover bg-right-top pt-24 px-10 pb-10" style="background-image:url('/static/images/md4-1000-voucher-bg.png'">
+                    <p class="font-light text-xl">
+                        <span class="text-6xl font-bold">$1000</span>
+                        <br>
+                        <span class="font-bold">mdLiDAR1000 or mdMapper1000 series:</span>
+                        <br>
+                        $1000 voucher for future aaS purchases
+                    </p>
+                </div>
+                <div class="bg-cover bg-right-top pt-24 px-10 pb-10" style="background-image:url('/static/images/md4-3000-voucher-bg.png'">
+                    <p class="font-light text-xl">
+                        <span class="text-6xl font-bold">$3000</span>
+                        <br>
+                        <span class="font-bold">mdLiDAR3000 or mdMapper3000 series:</span>
+                        <br>
+                        $3000 voucher for future aaS purchases
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="px-20 py-10">
+        <div class="px-4 container mx-auto text-center max-w-3xl">
+            <p class="text-xl mb-8 font-light">
+                There’s never been a better time to get started with everything needed to use drones for complex surveying work. Microdrones as a Service provides drone surveying options for everyone with convenient lease or buy hardware and software packages as well as affordable monthly payment&nbsp;options.
+            </p>
+
+            <p class="font-bold text-xl mb-5 text-nei_blue">*Gift Card Voucher Guidelines:</p>
+            <ul class="max-w-2xl mx-auto">
+                <li class="mb-4">
+                    <span class="font-bold">mdLiDAR1000 or mdMapper1000 series:</span>
+                    <br>$1000 voucher for future purchases,
+                    <br>PO required no later than September 30, 2020
+                </li>
+                <li class="mb-4">
+                    <span class="font-bold">mdLiDAR3000 or mdMapper3000 series:</span>
+                    <br>
+                    $3000 voucher for future purchases,
+                    <br>PO required no later than September 30, 2020
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="text-center px-20 py-10 container mx-auto">
+        <img src="/static/images/nei-logo-grey.png" class="mx-auto"/>
     </footer>
 </main>

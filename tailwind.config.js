@@ -13,6 +13,11 @@ module.exports = {
           800: '#003072',
           900: '#00204C',
         },
+        nei_blue: '#174b92',
+        nei_yellow: '#FDB813',
+      },
+      fontFamily: {
+        'microdrones' : ['"Frutiger W02", "Frutiger W01",Arial,Helvetica,sans-serif'],
       }
     },
   },
