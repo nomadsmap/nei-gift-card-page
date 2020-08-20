@@ -15,6 +15,7 @@ module.exports = {
         },
         nei_blue: '#174b92',
         nei_yellow: '#FDB813',
+        divide_gray: '#C1C5CA',
       },
       fontFamily: {
         'microdrones' : ['"Frutiger W02", "Frutiger W01",Arial,Helvetica,sans-serif'],
